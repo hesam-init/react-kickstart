@@ -1,70 +1,57 @@
-# Vite React Ts Starter Template 🗿
+# React Kickstart 🚀
 
-> A nice and clean Vite React TypeScript starter pack for your project ^\_^
+> A sleek and modern Vite + React + TypeScript starter template to kickstart your next project.
 
 ## 📚 Description
 
-A real chad starter template for your React projects, which includes a bunch of useful tools and libraries. For code style and linting, it comes with Prettier for styling and includes Sass and TailwindCSS, ready to use. It also utilizes swc for an ultra-fast development experience.
+React Kickstart is a meticulously crafted starter template that provides a solid foundation for building high-performance React applications with TypeScript. It combines the lightning-fast build times of Vite with the robustness of React and the type safety of TypeScript, creating a delightful and productive development experience.
 
-## 🐕 Setup
+This template comes pre-configured with a suite of essential tools and libraries, including:
+
+- **Code Styling and Linting**: Biome JS, an all-in-one tool for code formatting, linting, and enforcing best practices.
+- **CSS Styling:** Support for CSS modules, Sass, and Tailwind CSS out of the box.
+- **Routing:** Tanstack Router for efficient client-side routing.
+- **Performance Optimization:** SWC for ultra-fast development builds and optimized production bundles.
+
+With React Kickstart, you can hit the ground running and focus on building your features and components, without the hassle of setting up a complex development environment.
+
+## 🚀 Getting Started
 
 ### 1. Clone the Repository
 
-Clone this repository and remove the `.git` folder:
-
 ```bash
-git clone https://github.com/hesam-init/vite-react-ts-starter-template.git
-cd vite-react-ts-starter-template
+git clone https://github.com/hesam-init/react-kickstart.git
+cd react-kickstart
 rm -rf .git
 ```
 
 ### 2. Install Dependencies
 
-Install the project dependencies:
-
 ```bash
 pnpm install
 ```
 
-### 3. Set up Visual Studio Code
+### 3. Start the Development Server
 
-For the best development experience, it is recommended to use Visual Studio Code with the following extensions installed:
+```bash
+pnpm dev
+```
 
-- Search for `@recommended` in the Extensions tab to install all recommended extensions.
+The development server will be running at `http://localhost:3000`.
 
-After installing the recommended extensions, reload Visual Studio Code by pressing <kbd>F1</kbd> or <kbd>Ctrl + Shift + P</kbd>, then search for "Reload Window".
+## 📦 Scripts
 
-After following these steps, everything should work fine and perfectly. Enjoy! ಥ\_ಥ
-
-## 🧩 Scripts
-
-### Start Development Server
-
-- `pnpm dev` - Starts the development server at `http://localhost:3000`
-
-### Build for Production
-
-- `pnpm build`
-
-### Preview Production Build
-
-After creating the production build, run:
-
-- `pnpm preview`
-
-### Lint Code Base
-
+- `pnpm dev` - Starts the development server
+- `pnpm build` - Builds the application for production
+- `pnpm preview` - Previews the production build
 - `pnpm lint` - Runs the linter to check for code style and best practices issues
 
-## 🚀 It uses
+## 🛠️ Tech Stack
 
-![Stacks](https://skillicons.dev/icons?i=vite,typescript,react,tailwind,scss,tanstackrouter)
+![Tech Stack](https://skillicons.dev/icons?i=vite,typescript,react,tailwind,scss,tanstackrouter)
 
-- Bun.js
-- Tanstack Router
+## 💖 Show Your Support
 
-**## 😻 Show your support**
+If you found this project helpful, please give it a ⭐️ star on GitHub!
 
-Just press this ⭐️ little star button ^\_^
-
-Made with ❤️ by HesamYusefpur ༼ つ ◕\_◕ ༽つ
+Made with ❤️ by Hesam Yusefpur
