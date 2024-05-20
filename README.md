@@ -1,56 +1,69 @@
 # Vite React Ts Starter Template 🗿
 
-> A nice and clean vite react ts starter pack for your project ^\_^
+> A nice and clean Vite React TypeScript starter pack for your project ^\_^
 
 ## 📚 Description
 
-A real chad starter template for your React projects which includes a bunch of useful tools and libraries. For code style and linting, it comes with Prettier for styling and includes Sass and TailwindCSS ready to use. It also uses swc for an ultra-fast development experience.
+A real chad starter template for your React projects, which includes a bunch of useful tools and libraries. For code style and linting, it comes with Prettier for styling and includes Sass and TailwindCSS, ready to use. It also utilizes swc for an ultra-fast development experience.
 
 ## 🐕 Setup
 
-### 1. Step One
+### 1. Clone the Repository
 
-Clone this repository and remove .git folder
+Clone this repository and remove the `.git` folder:
 
-### 2. Step Two
+```bash
+git clone https://github.com/hesam-init/vite-react-ts-starter-template.git
+cd vite-react-ts-starter-template
+rm -rf .git
+```
 
-- Make sure all of the recommended extensions are installed.
-- To be sure about extensions, just go to the Extensions tab and search for @recommended
+### 2. Install Dependencies
 
-```use VsCode to have all power of this template```
+Install the project dependencies:
 
-- After you have installed all recommended extensions, you need to reload your vscode. Just press <kbd>F1</kbd> or <kbd>Ctrl + Shift + P</kbd> to open the command palette and search for "reload window".
+```bash
+pnpm install
+```
 
-After all these steps, everything should work fine and perfectly. Enjoy it ಥ\_ಥ
+### 3. Set up Visual Studio Code
+
+For the best development experience, it is recommended to use Visual Studio Code with the following extensions installed:
+
+- Search for `@recommended` in the Extensions tab to install all recommended extensions.
+
+After installing the recommended extensions, reload Visual Studio Code by pressing <kbd>F1</kbd> or <kbd>Ctrl + Shift + P</kbd>, then search for "Reload Window".
+
+After following these steps, everything should work fine and perfectly. Enjoy! ಥ\_ಥ
 
 ## 🧩 Scripts
 
-### Start project as dev mode
+### Start Development Server
 
-- `pnpm dev` - it will open a new tab `http://localhost:3000`
+- `pnpm dev` - Starts the development server at `http://localhost:3000`
 
-### Build project for production
+### Build for Production
 
 - `pnpm build`
 
-### Locally preview production build
+### Preview Production Build
 
 After creating the production build, run:
 
 - `pnpm preview`
 
-### Lint code base
+### Lint Code Base
 
-- `pnpm lint`
+- `pnpm lint` - Runs the linter to check for code style and best practices issues
 
 ## 🚀 It uses
 
-[![Stacks](https://skillicons.dev/icons?i=vite,typescript,react,tailwind,scss,tanstackrouter)](https://skillicons.dev)
+![Stacks](https://skillicons.dev/icons?i=vite,typescript,react,tailwind,scss,tanstackrouter)
 
-- biome js
-- tanstack router
+- Bun.js
+- Tanstack Router
 
-## 😻 Show your support
+**## 😻 Show your support**
 
 Just press this ⭐️ little star button ^\_^
 
