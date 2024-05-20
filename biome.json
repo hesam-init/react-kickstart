@@ -1,0 +1,79 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.7.3/schema.json",
+	"organizeImports": {
+		"enabled": false
+	},
+	"files": {
+		"ignore": [
+			"node_modules/**",
+			"src/routeTree.gen.ts"
+		]
+	},
+	"linter": {
+		"ignore": [
+			"node_modules/**",
+			"vite.config.ts"
+		],
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"a11y": {
+				"useAltText": "error",
+				"useButtonType": "error"
+			},
+			"nursery": {
+				"useSortedClasses": {
+					"level": "off",
+					"options": {
+						"attributes": [
+							"classList"
+						],
+						"functions": [
+							"clsx",
+							"cva",
+							"tw"
+						]
+					}
+				}
+			},
+			"correctness": {
+				"noSelfAssign": "error",
+				"noUnusedImports": "error",
+				"noUnusedVariables": "error",
+				"noEmptyPattern": "off"
+			},
+			"complexity": {
+				"noUselessTernary": "error"
+			},
+			"suspicious": {
+				"noEmptyInterface": "off"
+			},
+			"style": {
+				"useConst": "error",
+				"noVar": "error",
+				"useEnumInitializers": "error"
+			}
+		}
+	},
+	"formatter": {
+		"ignore": [
+			"node_modules/**"
+		],
+		"enabled": true,
+		"indentWidth": 4,
+		"lineEnding": "lf"
+	},
+	"javascript": {
+		"formatter": {
+			"jsxQuoteStyle": "double",
+			"quoteProperties": "asNeeded",
+			"trailingComma": "all",
+			"semicolons": "always",
+			"arrowParentheses": "always",
+			"bracketSpacing": true,
+			"bracketSameLine": false,
+			"quoteStyle": "double",
+			"attributePosition": "auto"
+		}
+	}
+}
