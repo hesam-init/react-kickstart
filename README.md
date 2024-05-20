@@ -45,7 +45,7 @@ After creating the production build, run:
 
 ## 🚀 It uses
 
-[![Stacks](https://skillicons.dev/icons?i=vite,typescript,react,tailwind,scss,tanstackrouter&perline=3)](https://skillicons.dev)
+[![Stacks](https://skillicons.dev/icons?i=vite,typescript,react,tailwind,scss,tanstackrouter)](https://skillicons.dev)
 
 - biome js
 - tanstack router
