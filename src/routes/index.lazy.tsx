@@ -1,10 +1,10 @@
 import { createLazyFileRoute } from "@tanstack/react-router";
 
 export const Route = createLazyFileRoute("/")({
-	component: Page,
+	component: View,
 });
 
-function Page() {
+function View() {
 	return (
 		<div>
 			<h1 className="text-2xl">Hello World</h1>

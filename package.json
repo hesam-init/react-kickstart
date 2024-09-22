@@ -10,15 +10,15 @@
     "lint": "biome lint ./src"
   },
   "dependencies": {
-    "@tanstack/react-router": "^1.33.4",
+    "@tanstack/react-router": "^1.58.3",
     "@types/node": "^20.12.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.2",
-    "@tanstack/router-devtools": "^1.33.4",
-    "@tanstack/router-vite-plugin": "^1.32.17",
+    "@tanstack/router-devtools": "^1.58.3",
+    "@tanstack/router-vite-plugin": "^1.58.4",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react-swc": "^3.5.0",
