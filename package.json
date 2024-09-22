@@ -16,7 +16,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.7.3",
+    "@biomejs/biome": "1.9.2",
     "@tanstack/router-devtools": "^1.33.4",
     "@tanstack/router-vite-plugin": "^1.32.17",
     "@types/react": "^18.2.66",

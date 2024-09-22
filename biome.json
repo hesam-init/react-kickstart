@@ -1,20 +1,49 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.7.3/schema.json",
-	"organizeImports": {
-		"enabled": false
+	"$schema": "https://biomejs.dev/schemas/1.9.2/schema.json",
+	"vcs": {
+		"enabled": false,
+		"clientKind": "git",
+		"useIgnoreFile": false
 	},
 	"files": {
+		"ignoreUnknown": false,
 		"ignore": [
 			"node_modules/**",
-			"src/routeTree.gen.ts"
+			"src/routeTree.gen.ts",
+			"src/routes.tsx"
 		]
 	},
+	"organizeImports": {
+		"enabled": true
+	},
+	"formatter": {
+		"enabled": true,
+		"ignore": [
+			"node_modules/**"
+		],
+		"indentWidth": 4,
+		"lineEnding": "lf",
+		"indentStyle": "tab"
+	},
+	"javascript": {
+		"formatter": {
+			"jsxQuoteStyle": "double",
+			"quoteProperties": "asNeeded",
+			"semicolons": "always",
+			"arrowParentheses": "always",
+			"bracketSpacing": true,
+			"bracketSameLine": false,
+			"quoteStyle": "double",
+			"attributePosition": "auto",
+			"trailingCommas": "es5"
+		}
+	},
 	"linter": {
+		"enabled": true,
 		"ignore": [
 			"node_modules/**",
 			"vite.config.ts"
 		],
-		"enabled": true,
 		"rules": {
 			"recommended": true,
 			"a11y": {
@@ -53,27 +82,6 @@
 				"noVar": "error",
 				"useEnumInitializers": "error"
 			}
-		}
-	},
-	"formatter": {
-		"ignore": [
-			"node_modules/**"
-		],
-		"enabled": true,
-		"indentWidth": 4,
-		"lineEnding": "lf"
-	},
-	"javascript": {
-		"formatter": {
-			"jsxQuoteStyle": "double",
-			"quoteProperties": "asNeeded",
-			"trailingComma": "all",
-			"semicolons": "always",
-			"arrowParentheses": "always",
-			"bracketSpacing": true,
-			"bracketSameLine": false,
-			"quoteStyle": "double",
-			"attributePosition": "auto"
 		}
 	}
 }
