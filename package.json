@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-ts-starter-template",
+  "name": "react-kickstart",
   "private": true,
   "version": "0.0.1",
   "type": "module",
@@ -10,24 +10,24 @@
     "lint": "biome lint ./src"
   },
   "dependencies": {
-    "@tanstack/react-router": "^1.58.3",
-    "@types/node": "^20.12.12",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@tanstack/react-router": "^1.82.1",
+    "@types/node": "^20.17.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.2",
-    "@tanstack/router-devtools": "^1.58.3",
-    "@tanstack/router-vite-plugin": "^1.58.4",
-    "@types/react": "^18.2.66",
-    "@types/react-dom": "^18.2.22",
-    "@vitejs/plugin-react-swc": "^3.5.0",
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
-    "sass": "^1.77.2",
-    "tailwindcss": "^3.4.3",
-    "typescript": "^5.2.2",
-    "vite": "^5.2.0"
+    "@biomejs/biome": "1.9.4",
+    "@tanstack/router-devtools": "^1.82.1",
+    "@tanstack/router-vite-plugin": "^1.81.9",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react-swc": "^3.7.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "sass": "^1.81.0",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
   },
   "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
 }
