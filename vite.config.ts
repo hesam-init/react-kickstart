@@ -1,9 +1,12 @@
 import { TanStackRouterVite } from "@tanstack/router-vite-plugin";
 import ViteReact from "@vitejs/plugin-react";
 import { resolve } from "node:path";
-import { defineConfig } from "vite";
+import { defineConfig, loadEnv } from "vite";
 
 export default defineConfig(({ mode, command }) => {
+	const env = loadEnv(mode, process.cwd(), "");
+	const usePreact = env.VITE_USE_PREACT === "true";
+
 	return {
 		plugins: [
 			ViteReact({}),
@@ -14,6 +17,12 @@ export default defineConfig(({ mode, command }) => {
 		resolve: {
 			alias: {
 				"@": resolve("./src"),
+				...(usePreact
+					? {
+							react: "preact/compat",
+							"react-dom": "preact/compat",
+						}
+					: {}),
 			},
 		},
 		css: {
