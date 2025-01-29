@@ -7,20 +7,14 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"ignore": [
-			"node_modules/**",
-			"src/routeTree.gen.ts",
-			"src/routes.tsx"
-		]
+		"ignore": ["node_modules/**", "src/routeTree.gen.ts", "src/routes.tsx"]
 	},
 	"organizeImports": {
 		"enabled": true
 	},
 	"formatter": {
 		"enabled": true,
-		"ignore": [
-			"node_modules/**"
-		],
+		"ignore": ["node_modules/**"],
 		"indentWidth": 4,
 		"lineEnding": "lf",
 		"indentStyle": "tab"
@@ -40,10 +34,7 @@
 	},
 	"linter": {
 		"enabled": true,
-		"ignore": [
-			"node_modules/**",
-			"vite.config.ts"
-		],
+		"ignore": ["node_modules/**", "vite.config.ts"],
 		"rules": {
 			"recommended": true,
 			"a11y": {
@@ -52,16 +43,11 @@
 			},
 			"nursery": {
 				"useSortedClasses": {
-					"level": "off",
+					"fix": "safe",
+					"level": "info",
 					"options": {
-						"attributes": [
-							"classList"
-						],
-						"functions": [
-							"clsx",
-							"cva",
-							"tw"
-						]
+						"attributes": ["classList"],
+						"functions": ["clsx", "cva", "tw", "cl"]
 					}
 				}
 			},
@@ -82,6 +68,15 @@
 				"noVar": "error",
 				"useEnumInitializers": "error"
 			}
+		}
+	},
+	"json": {
+		"parser": {
+			"allowComments": true,
+			"allowTrailingCommas": true
+		},
+		"formatter": {
+			"enabled": true
 		}
 	}
 }
