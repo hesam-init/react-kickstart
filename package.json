@@ -8,6 +8,9 @@
     "build": "tsc && vite build",
     "preview": "vite build && vite preview",
     "start": "vite preview",
+    "build:bun": "bun --bun vite build",
+    "dev:bun": "bun --bun vite",
+    "start:bun": "bun --bun vite preview",
     "lint": "biome lint ./src"
   },
   "dependencies": {
