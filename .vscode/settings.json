@@ -41,7 +41,6 @@
 		"typescript": "typescriptreact"
 	},
 	"emmet.excludeLanguages": ["javascript", "typescript"],
-	"headwind.removeDuplicates": true,
 	"files.exclude": {
 		"dist": false
 	},
