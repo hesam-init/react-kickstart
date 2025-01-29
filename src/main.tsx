@@ -1,4 +1,5 @@
-import "@/assets/styles/main.scss";
+import "@/styles/main.scss";
+import "@/styles/tailwind.css";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./app";
