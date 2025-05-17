@@ -14,24 +14,24 @@
 		"lint": "biome lint ./src"
 	},
 	"dependencies": {
-		"@tailwindcss/vite": "^4.0.0",
-		"@tanstack/react-router": "^1.98.0",
-		"@types/node": "^20.17.12",
-		"preact": "^10.25.4",
+		"@tailwindcss/vite": "^4.1.7",
+		"@tanstack/react-router": "^1.120.5",
+		"@types/node": "^20.17.47",
+		"preact": "^10.26.6",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"@tanstack/router-devtools": "^1.98.0",
-		"@tanstack/router-vite-plugin": "^1.98.0",
-		"@types/react": "^18.3.18",
-		"@types/react-dom": "^18.3.5",
-		"@vitejs/plugin-react": "^4.3.4",
-		"sass": "^1.83.1",
-		"tailwindcss": "^4.0.0",
-		"typescript": "^5.7.3",
-		"vite": "^6.0.11"
+		"@tanstack/router-devtools": "^1.120.5",
+		"@tanstack/router-vite-plugin": "^1.120.5",
+		"@types/react": "^18.3.21",
+		"@types/react-dom": "^18.3.7",
+		"@vitejs/plugin-react": "^4.4.1",
+		"sass": "^1.89.0",
+		"tailwindcss": "^4.1.7",
+		"typescript": "^5.8.3",
+		"vite": "^6.3.5"
 	},
 	"packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
 }
